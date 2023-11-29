@@ -13,7 +13,7 @@ git fetch --prune
 branches_to_preserve="$@"
 
 # Branches to exclude from deletion
-exclude_branches=("master" "main")
+#exclude_branches=("master" "main")
 
 # Get the list of all local branches
 all_branches=$(git branch | cut -c 3-)
