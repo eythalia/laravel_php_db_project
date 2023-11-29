@@ -2,7 +2,7 @@
 
 # Check if at least one branch name is provided
 if [ "$#" -eq 0 ]; then
-  echo "Usage: $0 branch_name1 branch_name2 ..."
+  echo "VALE ONOMATA REEE-->Usage: $0 branch_name1 branch_name2 ..."
   exit 1
 fi
 
