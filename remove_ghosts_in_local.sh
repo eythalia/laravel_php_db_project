@@ -6,7 +6,7 @@
 git fetch --prune
 
 # Get the list of local branches that no longer exist on the remote
-# opoio branch exei fygei apo to remote tha exei sti grammi tou ": gone" kai typwnoume tin prwti stili dld to onoma tou branch
+# opoio branch exei fygei apo to remote tha exei sti grammi tou ": gone" kai kratame tin prwti stili dld to onoma tou branch
 branches_to_remove=$(git branch -vv | grep ': gone]' | awk '{print $1}')
 
 # Remove each local branch that is not present on the remote
